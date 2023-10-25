@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.redBox {
+  background-color: red;
+  order: 2;
+}
+
+.blueBox {
+  background-color: blue;
+  order: 1;
+}
+
+.greenBox {
+  background-color: green;
+  order: 4;
+}
+
+.orangeBox {
+  background-color: orange;
+  order: 3;
+}

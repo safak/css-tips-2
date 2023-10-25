@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* YOU CAN USE THIS TAG AS A SCROLL CONTAINER */
+
+  /* scroll-snap-type: y mandatory; */
+}
+
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; 
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  font-size: 72px;
+  /* font-size: 4.5rem; */
+  /* font-size: 1.25rem; */
+  /* font-size: 1.875rem; */
+  color: lightgrey;
+}
+
+section:nth-child(1) {
+  background-color: lightcoral;
+}
+section:nth-child(2) {
+  background-color: lightblue;
+}
+section:nth-child(3) {
+  background-color: lightpink;
+}
+section:nth-child(4) {
+  background-color: lightcyan;
+}
+section:nth-child(5) {
+  background-color: lightseagreen;
+}

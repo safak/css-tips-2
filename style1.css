@@ -1,0 +1,51 @@
+* {
+  /* USE PADDING MARGIN AND BOX SIZING */
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* DO NOT USE BACKGROUND AND TEXT COLOR */
+  
+  /* background-color: lightgreen;
+  color: blueviolet; */
+}
+
+html {
+  /* BETTER TO USE THE BODY TAG */
+
+  /* background-color: lightcoral; */
+}
+
+body {
+  /* background-color: antiquewhite; */
+  color: blueviolet;
+}
+
+/* YOU CAN REMOVE ALL THE MARGIN AND PADDING USING UNIVERSAL SELECTOR */
+
+/* body{
+  margin: 0;
+} */
+
+/* h1 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+} */
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rebeccapurple;
+  padding: 10px;
+  border: 10px solid royalblue;
+}
+
+section{
+  background-color: lightblue;
+}
